@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    /* background-color: #8d6e6388; */
+    margin: 0;
+    padding:4px;
+    background-image: url('../images/backgroundImg.jpg');
+    /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    background-size: cover;
+    background-position: top;
+    font-size: larger;
+}
+
+h2 {
+    color: #192322;
+    text-decoration: underline;
+}
+
+.row {
+    display: block;
+    width: 100%;
+}
+
+#header {
+    background: #a1887fe0;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#dropdown-menu {
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 90px;
+    vertical-align: middle;
+    color: white;
+    background: #a1887fe0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.dropdown-content {
+    cursor: pointer;
+    display: none;
+    background: #a1887ffd;
+    position: relative;
+    min-width: 160px;
+    z-index: 1;
+    left: 0;
+    font-weight: normal;
+    font-size: medium;
+}
+
+#dropdown-menu li {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    list-style-type: none;
+}
+
+#dropdown-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#dropdown-menu:hover .dropdown-content {
+    display: block;
+}
+
+#dropdown-menu li:hover {
+    background: #94786e;
+}
+
+.dropdown-content.menu-rtl {
+    float: right;
+}
+
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+}
+
+/* styling for the contact page  */
+
+.content {
+    padding-top: 10px;
+}
+
+#body p {
+    text-align: center;
+    background: #829ac7;
+    border-radius: 100%;
+    font-size: xx-large;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 0px 10px 12px 0px rgb(21, 54, 89);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#body li {
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    align-items: center;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#body li a {
+    text-decoration: none;
+    color: black;
+}
+
+#body li a:hover {
+    text-decoration: none;
+    background-color: #b8ccf4;
+    font-size: larger;
+    color: black;
+}
+
+.contentList {
+    padding-left: 40%;
+
+}
+
+#imgPage {
+    width: 100%;
+    height: 60%;
+
+
+}
+
+#imgPage img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#imgPage p {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255 255 255 / 84%);
+    font-size: 31px;
+    font-weight: bold;
+}
+
+#pageDiv {
+    margin: 20px;
+}
+
+.leftPart {
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    border-radius: 3%;
+
+}
+
+.rightPart {
+    float: right;
+    border-radius: 3%;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    display: inline-block;
+    width: 48%;
+
+}
+
+.infoLeft {
+    background-color: #a1887fd9;
+    width: 66%;
+    display: inline-block;
+    box-shadow: 0px 0px 8px 0px #a1887ffd;
+}
+
+.infoRight {
+    background-color: #a1887fd9;
+    width: 66%;
+    display: inline-block;
+    box-shadow: 0px 0px 8px 0px #a59792fd
+}
+
+.info p {
+    text-align: center;
+}
+
+.info a {
+    color: #88675bd1;
+    text-decoration: none;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+.location {
+    background-color: #a1887fd9;
+    color: white;
+    padding: 2px;
+    margin: 40px;
+    font-size: x-large;
+    text-align: center;
+    box-shadow: 0px 0px 8px 0px #a59792fd
+}
+
+.location a {
+    color: #88675bd1;
+    text-decoration: none;
+}
+
+.location a:hover {
+    text-decoration: underline;
+}
+
+#fax {
+    color: #88675bd1;
+}
+
+#fax:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#user-welcome {
+    display: inline;
+    float: right;
+    color: white;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+#user-welcome a {
+    color: white;
+    padding-left: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#user-welcome a:hover {
+    color: rgb(9, 9, 9);
+   
+    font-size: larger;
+}

@@ -1,0 +1,178 @@
+body {
+    /* background-color: #8d6e636e; */
+    margin: 0;
+
+    background-color: #8d6e6388;
+}
+/* used to center the gallery instead of fixing the margins */
+#container {
+    text-align: center;
+    margin-top: 160px;
+}
+
+/* #header_title {
+    text-align: center;
+    height: 26px;
+    background-color: rgb(43 62 86);
+} */
+
+
+.gallery img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.gallery img:hover {
+    width: 380px;
+    height: 380px;
+    box-shadow: 23px 4px 78px 38px rgb(109 76 76 / 82%);
+}
+/* styling for the div (container) of each image */
+.imgs {
+    padding-top: 10px;
+    display: inline-block;
+    width: 402px;
+    height: 402px;
+    background-color: #8d6e63ab;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.imgs p {
+    margin-top: 2px;
+    cursor: zoom-in;
+    transition: transform 2s ease;
+}
+input[type=checkbox]
+{
+display: none;
+}
+input[type=checkbox]:checked ~ label > img
+{
+    transform: scale(2);
+    cursor: zoom-out;
+ 
+
+}
+.row{
+    display: block;
+    width: 100%;
+}
+
+#header{
+    background: #a1887fe0;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+
+#dropdown-menu{
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: 90px;
+    vertical-align: middle;
+    color: white;
+    background: #a1887fe0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.dropdown-content{
+    cursor: pointer;
+    display: none;
+    background:#a1887ffd;
+    position: relative;
+    min-width: 160px;
+    z-index: 1;
+    left: 0;
+    font-weight: normal;
+    font-size: medium;
+}
+
+#dropdown-menu li{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    list-style-type: none;
+}
+
+#dropdown-menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+#dropdown-menu:hover .dropdown-content{
+    display: block;
+}
+
+#dropdown-menu li:hover{
+    background:#94786e;
+}
+
+.dropdown-content.menu-rtl{
+    float: right;
+}
+
+.dropdown-content a{
+    color: white;
+    text-decoration: none;
+}
+/* styling for the gallery page  */
+
+.content{
+    padding-top: 10px;
+}
+#body p{
+    text-align: center;
+    background: #b8ccf4;
+    font-size: xx-large;
+    font-family: monospace;
+
+}
+#body li{
+    text-decoration: none;
+    color:black;
+    list-style-type: none;
+    align-items: center;
+    display:block;
+    padding-bottom: 10px;
+}
+
+#body li a{
+    text-decoration: none;
+    color: black;
+}
+#body li a:hover{
+    text-decoration: none;
+    background-color:  #101010;
+    font-size: larger;
+    color: black;
+}
+#user-welcome {
+    display: inline;
+    float: right;
+    color: white;
+    padding: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+#user-welcome a {
+    color: white;
+    padding-left: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#user-welcome a:hover {
+    color: rgb(9, 9, 9);
+   
+    font-size: larger;
+}

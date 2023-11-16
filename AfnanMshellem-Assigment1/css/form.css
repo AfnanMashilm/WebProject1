@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-image: url('../images/backgroundImg.jpg');
+    /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    background-size: cover;
+    background-position: top;
+    font-size: larger;
+}
+
+.row {
+    display: block;
+    width: 100%;
+}
+
+.title {
+    margin: 44px;
+    text-align: center;
+}
+
+.header {
+    background: #a1887fe0;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    text-align: center;
+    border-style: dashed;
+}
+
+.SignUpForm {
+    border-style: dashed;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a1887fd9;
+    text-align: center;
+    width: 44%;
+    border-radius: 20px 0px;
+    font-size: xx-large;
+
+}
+
+.SignUpForm input[type=text] {
+    width: 50%;
+}
+input.txtfield{
+    font-size: xx-large;
+}
+
+.SignUpForm input[type=date] {
+    width: 50%;
+}
+
+.SignUpForm input[type=password] {
+    width: 50%;
+}
+
+.SignUpForm input[type=button] {
+    border-radius: 20px 20px;
+    border-color: black;
+    font-size: x-large;
+}
+
+.SignUpForm input[type=button]:hover {
+    background-color: #e5d9d496;
+}
+
+a{
+    text-decoration: none;
+    color:#4f423e;
+}

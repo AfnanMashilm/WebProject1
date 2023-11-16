@@ -1,0 +1,18 @@
+[
+    {
+        "username": "afnan",
+        "firstname": "razan",
+        "lastname": "shaykho",
+        "password": "aaa",
+        "sex": "m",
+        "dob": "2023-11-30"
+    },
+    {
+        "username": "Adnan",
+        "firstname": "adnan",
+        "lastname": "andnan",
+        "password": "qqq",
+        "sex": "m",
+        "dob": "2023-12-01"
+    }
+]

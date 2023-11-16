@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    background-color: #8d6e636e;
+}
+/* dropdown Menu styling */
+
+.row{
+    display: block;
+    width: 100%;
+}
+
+#header{
+    background: #a1887fe0;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+
+#dropdown-menu{
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: 90px;
+    vertical-align: middle;
+    color: white;
+    background: #a1887fe0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.dropdown-content{
+    cursor: pointer;
+    display: none;
+    background:#a1887ffd;
+    position: relative;
+    min-width: 160px;
+    z-index: 1;
+    left: 0;
+    font-weight: normal;
+    font-size: medium;
+}
+
+#dropdown-menu li{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    list-style-type: none;
+}
+
+#dropdown-menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+#dropdown-menu:hover .dropdown-content{
+    display: block;
+}
+
+#dropdown-menu li:hover{
+    background:#94786e;
+}
+
+.dropdown-content.menu-rtl{
+    float: right;
+}
+
+.dropdown-content a{
+    color: white;
+    text-decoration: none;
+}
+/* container-page styling */
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px dashed #000000;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.5);
+    max-width: 1143px;
+    margin: 5rem auto;
+    padding: 36px;
+    background-color: #fff;
+    font-size: x-large;
+    border-radius: 36px 0px 36px 0px;
+
+}
+/* header-cv styling */
+#start-header {
+    display: flex;
+    align-items: center;
+    background-color:#9e7566cc;
+    padding: 20px;
+
+}
+/* profile image */
+#start-header img {
+    max-width: 100%;
+    border-radius: 36px 0px 36px 0px;
+    margin-right: 125px;
+    width: 204px;
+    margin-left: 69px;
+    box-shadow: 5px 5px 10px 10px #9e7566f6;
+
+}
+
+#start-header img:hover {
+    width: 220px;
+}
+/* header text styling */
+#start-header b {
+    font-size: 60px;
+    margin: 0;
+}
+
+/* #start-header .second-half b:hover {
+    color:#844366;
+    font-size: 66px;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 36px 0px 36px 0px;
+
+} */
+
+#page-content {
+    display: flex;
+}
+
+/* 
+using the flex concept make it more easier and of better design 
+#part30 {
+    flex: 0.4;
+    padding-right: 16px;
+    border-right: 1px solid #ccc;
+    text-align:center;
+}
+
+#part70 {
+    flex: 1;
+    padding-left: 16px;
+} */
+
+/* or can use the concept of width divison between the div,
+but there is a minor changes in the container and page content  */
+
+#part30 {
+    text-align: center;
+    border-right: 1px solid #ccc;
+    float: left;
+    width: 26%;
+    margin-right: .5rem;
+    padding-right: 16px;
+}
+
+#part70 p {
+    padding-left: .3rem;
+    line-height: 1.5;
+}
+
+#part70 {
+    float: right;
+    width: 74%;
+}
+
+.progress-container {
+    width: 80%;
+    background-color: #ccc;
+    height: 6px;
+    border-radius: 15px;
+    margin-left: 10%;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #9e7566cc;
+    border-radius: 15px;
+}
+
+/*  all lists have the same design */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    padding-left: 10px;
+}
+
+/*titles */
+.titles {
+    background-color: #9e7566cc;
+    margin: 10px 0;
+    text-align: center;
+}
+/* .titles:hover{
+    font-size:2em !important;
+    cursor: pointer;
+} */
+
+.subtitle h3 {
+    margin: 0;
+}
+
+.date {
+    /* margin: 0; */
+    float: right;
+    margin-top: -39px;
+}
+/* footer styling */
+#footer{
+    background-color:#d7ac94ca !important;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+#user-welcome {
+    display: inline;
+    float: right;
+    color: white;
+    padding: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+#user-welcome a {
+    color: white;
+    padding-left: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#user-welcome a:hover {
+    color: rgb(9, 9, 9);
+   
+    font-size: larger;
+}
