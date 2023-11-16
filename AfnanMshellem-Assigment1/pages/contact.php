@@ -13,11 +13,11 @@ if (!isset($_SESSION["username"])) {
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-<style>
-    body {
-    margin: 0;
-    background-color: #8d6e6340;
-}
+    <style>
+        body {
+            margin: 0;
+            background-color: #8d6e6340;
+        }
     </style>
 </head>
 
@@ -94,8 +94,9 @@ if (!isset($_SESSION["username"])) {
             <p>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52991.31173193522!2d35.454974303511236!3d33.89076169357833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f10cdf86989f9%3A0x920ea62c8299d366!2sLebanese%20American%20University!5e0!3m2!1sen!2slb!4v1699704618205!5m2!1sen!2slb"
-                    width="450" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
 
             </p>
         </div>
