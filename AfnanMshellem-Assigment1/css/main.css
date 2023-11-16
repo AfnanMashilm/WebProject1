@@ -133,11 +133,11 @@ h2 {
 
 #imgPage p {
     position: absolute;
-    top: 40%;
+    top: 4%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(255 255 255 / 84%);
-    font-size: 31px;
+    font-size: 41px;
     font-weight: bold;
 }
 
