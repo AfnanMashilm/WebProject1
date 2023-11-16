@@ -15,17 +15,16 @@ if (!isset($_SESSION["username"])) {
     </title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/icons.css">
-    <!-- <style>
+    <style>
         body {
-            margin: 0;
+         
             padding:4px;
-            background-image: url('../images/backgroundImg.jpg');
-            /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+            background-image: url('./images/backgroundImg.jpg');
             background-size: cover;
             background-position: top;
             font-size: larger;
         }
-        </style> -->
+        </style>
 </head>
 
 <body>

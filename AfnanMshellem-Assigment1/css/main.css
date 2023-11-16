@@ -1,13 +1,5 @@
 body {
     margin: 0;
-    /* background-color: #8d6e6388; */
-    margin: 0;
-    padding:4px;
-    background-image: url('../images/backgroundImg.jpg');
-    /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
-    background-size: cover;
-    background-position: top;
-    font-size: larger;
 }
 
 h2 {
