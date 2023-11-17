@@ -24,7 +24,7 @@
             <span><i class="ico burger-ico"></i>MENU</span>
             <div class="dropdown-content">
                 <ul>
-                    <a href="../indexPage.php">
+                    <a href="../index.php">
                         <li><i class="ico ico-l gallery-ico"></i>Main Page</li>
                     </a>
                     <a href="cvPage.php">
