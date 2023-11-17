@@ -30,7 +30,7 @@ $imageNames = $imageData['images'];
             <span><i class="ico burger-ico"></i>MENU</span>
             <div class="dropdown-content">
                 <ul>
-                    <a href="../indexPage.php">
+                    <a href="../index.php">
                         <li><i class="ico ico-l gallery-ico"></i>Main Page</li>
                     </a>
                     <a href="cvPage.php">
@@ -79,26 +79,7 @@ $imageNames = $imageData['images'];
     </div>
 <?php endforeach; ?>
 
-    <!-- <div id="container">
-        <div class="gallery">
-            <?php foreach ($imageNames as $index => $imageName) : ?>
-                <div class="imgs">
-                    <a href="#zoom_img<?= $index + 1 ?>">
-                        <img src="../images/<?= $imageName ?>">
-                        <p>----</p>
-                    </a>
-                </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
-
-    <!-- Enlarged Image Sections -->
-    <?php foreach ($imageNames as $index => $imageName) : ?>
-        <div id="zoom_img<?= $index + 1 ?>" class="enlarged-img-section">
-            <a href="#" class="close-btn">Close</a>
-            <img src="../images/<?= $imageName ?>" class="enlarged-img">
-        </div>
-    <?php endforeach; ?> -->
+  
 </body>
 
 </html>
