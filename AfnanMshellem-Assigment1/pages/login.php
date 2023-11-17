@@ -3,13 +3,7 @@ session_start();
 session_unset();
 session_destroy();
 
-// setcookie("language","en",time()+10);
-// if (isset($_COOKIE["language"])){
-//     echo $_COOKIE["language"];
-// }
-// else{
-//     echo "language cookie doesnt exist";
-// }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
