@@ -26,6 +26,4 @@ class User{
 }
 
 
-$user=new User("John","Doe","john.doe");
-print_r($user);
 ?>
