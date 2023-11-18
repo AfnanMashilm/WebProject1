@@ -33,17 +33,17 @@ if (!isset($_SESSION["username"])) {
             <span><i class="ico burger-ico"></i>MENU</span>
             <div class="dropdown-content">
                 <ul>
-                    <a href="index.php">
-                        <li><i class="ico ico-l gallery-ico"></i>Main Page</li>
+                <a href="index.php">
+                        <li>Main Page</li>
                     </a>
                     <a href="./pages/cvPage.php">
-                        <li><i class="ico ico-l user-ico"></i>CV</li>
+                        <li>CV</li>
                     </a>
                     <a href="./pages/galleryPage.php">
-                        <li><i class="ico ico-l wallet-ico"></i>Gallery</li>
+                        <li>Gallery</li>
                     </a>
                     <a href="./pages/contact.php">
-                        <li><i class="ico ico-l gallery-ico"></i>Contact</li>
+                        <li>Contact</li>
                     </a>
 
                 </ul>
