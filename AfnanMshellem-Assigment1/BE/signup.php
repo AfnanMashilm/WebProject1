@@ -5,7 +5,7 @@ function VarExist($var){
     if (isset($var)){
         return $var;
     } else {
-        header("location:../pages/login.php");
+        header("location:../login.php");
     }
 }
 
@@ -37,5 +37,5 @@ $users[] = [
 file_put_contents($file_path, json_encode($users, JSON_PRETTY_PRINT));
 
 // Redirect to login page
-header("location:../pages/login.php");
+header("location:../login.php");
 
