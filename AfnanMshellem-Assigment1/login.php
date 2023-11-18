@@ -46,7 +46,7 @@ session_destroy();
                 <input type="button" value="Cancel" class="mButton" onclick="ClearForm()">
                 <br><br>
             </form>
-            <a href="./pages/signup.html">Sign Up...</a>
+            <a href="signup.html">Sign Up...</a>
         </div>
 
     </div>
