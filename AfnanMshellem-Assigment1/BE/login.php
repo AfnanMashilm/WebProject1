@@ -25,11 +25,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // If no match is found, redirect to login page with an error message
-    header("Location:../pages/login.php");
+    header("Location:../login.php");
     exit();
 } else {
     // If the request method is not POST, redirect to login page
-    header("Location:../pages/login.php");
+    header("Location:../login.php");
     exit();
 }
 ?>
